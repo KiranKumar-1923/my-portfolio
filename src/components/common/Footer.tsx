@@ -78,6 +78,8 @@ const Footer: React.FC = () => {
             <div className="flex flex-col gap-2">
               <a
                 href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 transition-colors"
               >
                 Download Resume

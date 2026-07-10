@@ -68,6 +68,8 @@ const Navigation: React.FC = () => {
           {/* Resume Download */}
           <a
             href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden sm:flex items-center gap-2 btn-primary text-sm"
           >
             <HiDownload /> Resume
@@ -107,7 +109,12 @@ const Navigation: React.FC = () => {
                 {link.label}
               </a>
             ))}
-            <a href="/resume.pdf" className="btn-primary text-sm flex items-center gap-2">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm flex items-center gap-2"
+            >
               <HiDownload /> Download Resume
             </a>
           </div>

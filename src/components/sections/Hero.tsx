@@ -109,7 +109,12 @@ const Hero: React.FC = () => {
 
             {/* CTA Buttons */}
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4 pt-4">
-              <a href="/resume.pdf" className="btn-primary flex items-center gap-2">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary flex items-center gap-2"
+              >
                 <HiDownload /> Download Resume
               </a>
               <a href="#projects" className="btn-secondary flex items-center gap-2">
