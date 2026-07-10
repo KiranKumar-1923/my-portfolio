@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /.git
+Disallow: /node_modules
+
+Sitemap: https://yourportfolio.com/sitemap.xml
+
+# Specific search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
